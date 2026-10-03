@@ -6,3 +6,13 @@ Thumbs.db
 venv/
 node_modules/
 *.tsbuildinfo
+
+# Runtime state do Hermes dentro de skills/ — específico da máquina,
+# não deve ser versionado
+skills/.usage.json
+skills/.usage.json.lock
+skills/.curator_ledger.jsonl
+skills/.curator_state
+skills/.locks/
+skills/.bundled_manifest
+skills/.quarantine/
